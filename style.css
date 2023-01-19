@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    background: rgb(186, 229, 188);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.texto-1{
+    color: blue;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+.images{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.image-froggy{
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+}
+.nivel-select{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nivel-select button{
+    background-color: rgb(7, 147, 207)      ;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-right: 8px;
+    cursor: pointer;
+    display: block;
+    border: none;
+}
+.nivel-select button:hover{
+    box-shadow: 0 0 10px rgb(207, 26, 23);
+    background-color: rgb(255, 255, 149);
+    transform: scale(1.40);
+}
